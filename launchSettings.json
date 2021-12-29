@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "webapplication1",
+      "composeLaunchUrl": "{Scheme}://{ServiceIPAddress}{ServicePort}",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "webapplication1": "StartDebugging"
+      }
+    }
+  }
+}
